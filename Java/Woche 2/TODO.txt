@@ -1,0 +1,34 @@
+Samstag:
+check up on chapter 2 reading (questions?)
+check up on exercise 2 progress/issues -> co-code / repeat live (ex 2.3-2.4)
+Live exercise 1
+Ex 3.1 + 3.2 here or later?
+
+covered in chapter 3 slides:
+repeat different kinds of loops, syntax, purpose, use-cases
+repeat array declaration methodS and looping through it
+repeat if-else if-else structure
+
+Live exercise 2
+
+homework: "fill the gaps"
+read chapter 3 slides
+do live exercise 1 (ProgB_01_LE_blank.pdf, optional)
+repeat/continue live exercise 2 (ProgB_02_LE_blank.pdf)
+do live exercise 3 (ProgB_03_LE.pdf)
+do regular exercise 3 (PB-AAI-exercise03.docx)
+
+
+
+Sonntag: use Kate*
+check up on previous exercises
+
+homework:
+Live Exercise 2.6-2.8 wiederholen
+Chapter 3 slides lesen, falls noch nicht erledigt
+Meine Version von Exercise 3.3 nachvollziehen
+Chapter 4 slides lesen
+Live Exercise 4 machen
+Normale Exercise 4 machen
+send LE 1 key
+

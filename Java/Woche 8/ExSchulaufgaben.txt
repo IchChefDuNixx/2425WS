@@ -1,0 +1,57 @@
+# Ex
+Pseudocode Aufgabe 8P.
+
+Schreibe den Pseudeocode für die Funktin „containsNumber“. Sie erhält als Parameter das double-Array „data“ und den double-Wert „number“. Die Funktion soll prüfen, ob number in data enthalten ist und entsprechend true oder false zurückgeben!
+Der Algorithmus muss ersichtlich sein!
+
+
+
+
+
+# SA 1
+1. Was macht man bei einem Schreibtischtest oder Bleistifttest? 2P
+
+2. Was geschieht mit den Argumenten, wenn eine Fuktion/Methode aufgerufen wird?2P
+
+3. Welche Informationen erhält die Kopfzeile eines Unterprogrammes? Nenne 3! 3P
+
+4. Welche Informationen enthält eine Parameter-Deklaration? 2P
+
+5. Was ist der Unterschied zwischen Prozedur und Funktion? 1P
+
+6. Was ist der Unterschied zwischen logischen und syntaktischen Programmfehlern? 2P
+
+7. Das folgende Java-Programm enthält ein oder zwei Fehler! Notiere, die Zeilennummer und wie Zeilennummer und wie Zeile richtig lautet! 2P
+    1:  public void run (int e);
+    2:  {
+    3:      int x;
+    4:      for (x=1, x<e, x+=1) {
+    5:          System.out.println(x);
+    6:      }
+    7:      return;
+    8:  }
+
+8. Schreibe die Java-Prozedur „ungerade“, die alle ungeraden Zahlen von 101 bis 1 untereinander auf den Bildschirm schreibt. 3P
+
+9. Programmiere die Java-Funktion “flächen”. Sie bekommt die zwei Arrays „länge“ und „breite“ vom Typ double als Parameter. Beide Arrays sind gleich groß und enthalten die Länge und die Breite mehrerer Rechtecke. Dabei gehören Werte mit gleichem Index zum selben Rechteck. Als Rückgabewert soll ein neues Array zurückgegeben werden, das die berechneten Flächen für jedes einzelne Rechteck in der gleichen Reihenfolge enthält. 6P
+
+10. Schreibe die Java-Funktion “delete”. Sie erhält als Parameter das Array „namen“ vom Typ String und den int-Wert „index“. Die Funktion soll als Rückgabeergebnis ein neues um 1 kleineres String-Array zurückgeben, in dem der Name bei „index“ gelöscht ist. Es dürfen dabei keine anderen Werte verlorengehen. Der Algorithmus muss ersichtlich sein! 7P
+
+
+
+
+
+# SA 2
+1. Welche Prozedur muss in jedem Java-Programm enthalten sein, damit es gestartet werden kann? (Name genügt) 1P
+
+2. Welche 2 Kommandozeilen-Befehle sind erforderlich, um die Datei „Hallo.java“ auszuführen? Gib die vollständigen Kommandozeilen an! 2P
+
+3. In welchen Fällen benutzt man beim Programmieren eine for- und wann eine while-Schleife? Erkläre! 2P
+
+4. Für welche Arten von Programmfehlern benötigt man einen Debugger und für welche werden von Compilern erkannt? 2P
+
+5. Schreibe die Java-Prozedur „remove“. Sie soll in einem double-Array einen Wert an einer bestimmten Stelle löschen und die entstehende Lücke durch Verschieben der nachfolgenden Werte wieder auffüllen. Es dürfen dabei keine anderen Werte verlorengehen und die ursprüngliche Reihenfolge ist einzuhalten. Die Prozedur erhält als Parameter das double-Array und die Position, an der gelöscht werden soll. Der Algorithmus muss vollständig ersichtlich sein! 4P
+
+6. Schreibe die Java-Funktion “mittelwert“! Sie erhält als Parameter ein float-Array und soll von allen positiven Zahlen ab Index 0 bis zum ersten negativen Wert den Durchschnitt berechnen und als Rückgabewert zurückgeben. Die Arraygröße dar ignoriert werden. Der Algorithmus muss ersichtlich sein! 10P
+
+7. Gegeben ist der Auszug einer csv-Datei mit Kopfzeile, die verschiedene Artikel aus dem Lager eines Versandhauses für Computer-Zubehör enthält. Schreibe die Java-Funktion „gesamtWert“, die als Parameter den Dateinamen erhält und aus dem Dateiinhalt den gesamten Lagerwert berechnet. Dabei ist pro Artikel die Stückzahl im Lager (Spalte „Lagerbestand“) und der Einzelpreis (Spalte „Preis“) zu berücksichtigen. Der Gesamtwert soll als Returnwert zurückgegeben werden. Der Algorithmus muss vollständig ersichtlich sein! Die Exception für ungültige Dateinamen darf ignoriert werden. 12P

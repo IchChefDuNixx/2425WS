@@ -1,0 +1,28 @@
+samstag: (2:30h)
+check up on progress of Ex
+Ex 2T2, 3T2, 4T1*
+
+homework:
+LE 2T378, 3T4(mit switch-case)5, 4T13, 5T23
+
+
+sonntag: (2:00h)
+maximum algorithm explanation*
+check up on progress of LE
+arraycopy selbst programmieren
+Arrays.toString() selbst programmieren
+
+homework:
+(more easy tasks to not loose motivation)
+wenn du bei den aufgaben der uni hängst, geh weiter zu w3schools
+
+Live Exercise 3 Task 6,7
+Live Exercise 4 Task 2
+Live Exercise 5 Task 1,2
+
+Exercise 3 Task 1 (anzeige korrekt runden mit System.out.printf(<special string>, <temperature value>))
+Exercise 5 Task 3
+
+parallel öffnen
+tutorial: https://www.w3schools.com/java/java_syntax.asp
+exercises: https://www.w3schools.com/java/exercise.asp

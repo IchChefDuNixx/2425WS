@@ -1,0 +1,60 @@
+ex 1 - Task 2 javac/java but with the code from Task 3
+-
+
+ex 2 Task 1 (ask llama for new (more complex) ideas)
+    (1) The number of pages in a book.
+    (2) The population of a large city like Tokyo.
+    (3) Whether a user is logged in to a website.
+    (4) The average speed of a car on a highway in kilometers per hour.
+    (5) The number of credits required to graduate from a university program.
+    (6) The number of employees in a small company.
+    (7) The first digit of a person's phone number.
+
+ex 2 Task 3 (but with my salary and working hours and scanner, see ex 3 Task 0)
+-
+
+ex 3 Task 1 (eur-$aus conversion with printf rounding)
+Create a new CurrencyConverter class and add a main method to the class. Then ensure that the class provides the following functionality: read a floating-point number from the keyboard (e.g. Double.parseDouble()), which represents an amount in Euros, and convert it to Australian Dollars. The current exchange rate is approximately 1 EUR = 1.55 AUD. Write a program that takes the Euro amount as input and outputs the equivalent amount in Australian Dollars. Round the output properly using System.out.printf.
+Example output:
+"10.00 EUR is approximately 15.50 AUD"
+
+ex 3 Task 3 (find alternative to time in seconds)
+A recipe website displays cooking times in minutes. Write a Java program, RecipeTime, which converts a number of minutes into a time specification in the format h m and then outputs the calculated result to the console. The following applies:
+h = number of hours in the range from 0 to 23,
+m = number of minutes in the range from 0 to 59.
+Example input: 75 minutes
+Example output: 1 hour 15 minutes
+
+ex 4 task 2 (different data type than int)
+Create a class Intersection and add a method intersection to the class, which takes two String arrays as arguments, and returns a String array which contains the strings that occur in both arrays (from Mathematics - set theory: intersection).
+Also write a main method in which you test the intersection method using some examples:
+{"apple", "banana", "cherry", "date", "elderberry"} and {"cherry", "date", "fig", "grape"} → {"cherry", "date"}
+(set1a, set1b)
+{"hello", "world", "java"} and {"swift", "python", "ruby"} → {}
+(set2a, set2b)
+{"sun", "moon", "stars"}, {"sun", "moon", "stars"} → {"sun", "moon", "stars"}
+(set3a, set3b)
+
+ex 5 task 2 (letter histogram for number-only strings)
+Digit Frequency:
+Count the number of times each digit occurs within a string of numbers.
+Example: "123122": 2 x 1, 3 x 2, 1 x 3.
+Write a method that counts the digits within a string of numbers. Test this method with a few selected strings.
+Examples:
+"112233"
+"555555"
+"987654321"
+
+ex 5 task 3 (add it to the front)
+As you know, the size of an array is not changeable. However, sometimes it is necessary to add an
+element to an array.
+Write a method that gets an array and an element passed as parameters. The method should add the
+given element to the front of the given array.
+For example, append([1, 2, 3], 4) returns the array [4, 1, 2, 3]
+Test the method using appropriate data.
+
+ex 6 task 2 finish coffeebar implementation
+-
+
+ex 7 task 1+2 finish
+-

@@ -1,0 +1,24 @@
+Samstag:
+repeat chapter 4 slides
+check up on (live) exercise 4 - help finish
+
+homework:
+Chapter 4 Slides wiederholen
+Live Exercise 4 Task 1, 2a-c wiederholen
+meine lösungen zu Exercise 4 anschauen
+
+
+TODO: find easy exercises on methods
+
+
+Sonntag:
+check up on (live) exercise 4 - help finish
+math round to x decimal places
+custom exercises
+introduce exercise 5 (binary search, ternary if)
+
+homework:
+bfz Skript-V0.3 seite 4+5 genau durchlesen und nachvollziehen
+chapter 5 slides lesen
+live exercise 5 machen
+exercise 5 Task 1-3 machen

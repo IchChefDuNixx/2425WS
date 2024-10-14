@@ -1,0 +1,27 @@
+Terminal notes with bayerl.txt
+
+server (for me): /home/data/chinese_stuttering_data/Readme_seb.md
+
+usage: scp [-346ABCOpqRrsTv] [-c cipher] [-D sftp_server_path] [-F ssh_config]
+           [-i identity_file] [-J destination] [-l limit] [-o ssh_option]
+           [-P port] [-S program] [-X sftp_option] source ... target
+[felix@endeavour Downloads]$ scp tesla:/home/data/KST/segments/AAA_m_pho_nIK_dg_s0001_1_1_1.50_4.50.wav .
+AAA_m_pho_nIK_dg_s0001_1_1_1.50_4.50.wav                                                  100%   94KB   7.1MB/s   00:00
+
+rsync (auto-update files after change on either server or local side)
+
+volle schreibrechte im data folder, nicht schreiben, nur kopieren/runterladen
+
+2 beste models in data für mich: /home/data/stuttering_models
+
+in py script: --model (string format von huggingface) -> server path (/home/data/stuttering_models/sep28k...)
+
+experiment ordner haben results file -> pandas (speicchern hyperparameter)
+
+w2v2 large xlsr-53 ?
+
+a stutter seldom comes alone auswertung f1 score (paper)
+
+maybe todo: scale loss functions before weighting them (focal + main_loss_weight). set average as expectation for scaling? networks.py#L320
+
+batch size max 24?

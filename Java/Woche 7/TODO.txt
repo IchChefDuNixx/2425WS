@@ -1,0 +1,30 @@
+Samstag:
+check up on ex 6 Task 1
+ex 6 task 1a-f
+chapter 7 slides up to 16 + implementation
+
+homework:
+wenn du heute noch die slides weiter durchschaust, probier auch gleich die Live Exercise 7 Task 1+2 sobald sie erwähnt werden.
+Ich seh grad, dass wir deine Coffebar eigentlich erst nach Chapter 7 Part 2 wirklich programmieren können also verschieben wir das auf danach.
+
+Sonntag:
+continue chapter 7 slides
+LE 7 Task 1+2
+Bruch klasse nachprogrammieren
+
+homework:
+Als erstes dein Bruchrechnen Programm in IntelliJ zum Laufen bringen und ggfs. Fehler korrigieren. Zwei weitere Objekte der Klasse Bruch erstellen, Werte zuweisen, erweitern, print und printErweitern ausführen + Outputs verifizieren.
+
+Gleichheit verschiedener Objekte testen (if (a == b) {...}, if (a.nenner == b.nenner) {...}) [Chapter 7 Seite 41]
+
+Klassenmethoden set, setZero und mult implementieren [Chapter 7 Seite 57+59]
+
+Overloading von Seite 60+61 nachvollziehen, kopieren und mit verschiedenen Parametern ausführen bis es ganz verständlich ist.
+
+
+Ex + Schulaufgaben auf Papier und möglichst ohne Hilfsmittel erledigen.Bitte Marker für Fortschritt nach 60min setzen, aber weitermachen. Ich habe eine Datei ohne Lösungen erstellt:
+
+
+
+
+eingang sonepar 2. stock

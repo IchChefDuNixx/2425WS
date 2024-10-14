@@ -1,0 +1,13 @@
+samstag:
+chapter 6 slides
+p5  - 2GL(Assembly), 3GL(C,Java,Python), 4GL(SQL), 5GL(Prolog)
+p6  - Imperative/procedural/oop(COBOL,C,C++,Java,JavaScript), Declarative/constraint(SQl, Prolog), Dataflow(Spreadsheets)
+
+ex6 vorstellen
+- policy1(x) functions
+- loop i+=200
+- print rounding
+
+homework:
+Slides Wiederholen
+Exercise 6 Task 1 (+2)

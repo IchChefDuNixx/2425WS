@@ -1,0 +1,14 @@
+class/method modifiers, unterlagen, vs code, focus: funktionen/programmflow/platzhalter, 11h-13:15 + prep?
+
+repeat hello world - do full working file - chapter 1 slide 44
+slides chapter 1 quiz 35-41
+access modifiers erst mit/nach bfz skript p.12
+repeat data types (primitive/reference) chapter 2 slide 5-7
+ex 1.3 (+1.4?) + 2.1
+integer div + module chapter 2 slides 40-42
+
+
+
+"homework":
+read chapter 2 (some parts are too detailled or not necessary)
+ex 2.2-4 (2.4 maybe give hints for declaration of different variables)

@@ -1,0 +1,48 @@
+bfz skript p.3
+    klassen (int, float, string, arrays) als blueprint, vorlage für unendlich echte bauteile
+    declaration:
+    int[] - als einheit, klammern sind nicht einfach ein anhängsel
+    float[], char[], CustomDataType[]
+    usage:
+    arr[x] - als einheit, klammern sind nicht einfach ein anhängsel
+    arr[0], arr[1], arr[654]
+    beispiel: for loop i als veränderliche variable
+
+chapter 5 slides:
+motivation: 3+4
+1D: 8+9
+declaration 11 (speech) + 12 + 14
+default values 15
+    For int/short/byte/long that is a 0. (short integer, long integer)
+    For float/double that is a 0.0
+    For booleans that is a false.
+    For char that is the null character '\u0000' (whose decimal equivalent is 0).
+    For references (anything that holds an object) that is null.
+16 example
+access 17 + 19 + 20
+EX aufgabe 2 ("pseudocode")
+
+mein TODO:
+5.2,5.3,5.5
+
+TODO bis morgen:
+Widerholung slides chapter 5 bis seite 22
+Wiederholung live exercise 5 Task 3
+Exercise 5 Task 2+3
+
+
+
+Sonntag: (10:00-12:00)
+chapter 5 slides second half
+n-dim arrays 25+27+28
+repeat forEach 35+36
+check up on his progress
+
+homework:
+Exercise 2 Task 2 (Wiederholung ohne Hilfestellung + Zusatz: verändere die Werte der Variablen bVar2, sVar2, iVar2... isBool2 noch ein Mal bevor du sie in der Konsole anzeigst)
+
+Exercise 3 Task 2 (Wiederholung mit Zusatz: Ausgabe der Konsole korrekt auf 2 Nachkommastellen runden mit System.out.printf())
+
+Exercise 4 Task 1 (Wiederholung)
+
+Exercise 5 Tasks 2,3,5

@@ -1,0 +1,243 @@
+le 1 task 3 (ask llama for something different)
+Decide whether the following code snippets have correct syntax or not. If you find any errors, please mark them in the source code.
+(1)
+public class MyClass {
+  public static void main(String[] args) {
+    System.out.println("Hello, " + name);
+  }
+  String name = "World";
+}
+(2)
+public class MyClass {
+  public static void main(String[] args) {
+    System.out.println("Hello!");
+  }
+  public static void main(String[] args) {
+    System.out.println("Goodbye!");
+  }
+}
+(3)
+public MyClass {
+  public static void main(String[] args) {
+    System.out.println("Hello!");
+    System.out.println(printHello());
+  }
+  public void printHello() {
+    System.out.println("Hello again!");
+  }
+}
+(4)
+public class MyClass {
+  public static void main(String[] args) {
+    int x = 5,
+    printX(x),
+  }
+  public static void printX() {
+    System.out.println("The value of x is " + x);
+  }
+}
+
+le 2 task 1
+Fill in the gaps in the following text by adding missing words in the marked areas.
+(1) The programming language Java has _____ primitive data types.
+(2) The char data type uses _____ byte(s) to represent a single Unicode character.
+(3) The byte data type uses _____ byte(s) to represent a signed integer and can be used to represent the value range from _____ to _____.
+(4) The int data type uses _____ byte(s) to represent a signed integer, making it suitable for storing _______ values.
+(5) The long data type uses _____ byte(s) to represent a signed integer, making it suitable for storing _______ values.
+(6) A language that distinguishes between upper case and lower case letters is called a _______ language, which is a common feature of many modern programming languages.
+(7) The literal 23.8E+3 has the data type _______, which is a type that can represent very large or very small numbers.
+(8) The literal 'A' has the data type _______, which is a type that represents a single character.
+(9) The control character for a new line is represented by the following literal: _______, which is commonly used in text processing.
+(10) The accuracy of the float data type is approximately _____ decimal places, making it suitable for calculations that require moderate precision.
+(11) The accuracy of the double data type is approximately _____ decimal places, making it suitable for calculations that require high precision.
+(12) The literal "smile" can be represented by the _______ data type, which is a type that represents a sequence of characters.
+
+le 2 task 3
+Analyze the following variable definitions and identify the correct ones. Explain any errors you find.
+(1) float myFloat;
+(2) int x, y, z;
+(3) String hello-world;
+(4) boolean isAdmin;
+(5) int shortCut;
+(6) byte theByte;
+(7) boolean True;
+(8) int sum&counter;
+(9) int _start;
+(10) int _start;
+(11) double price = 100.00$;
+(12) boolean isValid = true;
+(13) char letter = 'B';
+(14) short s = 65536;
+(15) double rate = 12,50;
+(16) double exponent = 1.2e10;
+(17) char newline = '\n';
+(18) char tooLong = "A";
+
+le 2 task 4
+Your task is to evaluate the expressions and determine the final values of the variables.
+(1)
+int result;
+result = 27 / 3 + 11;
+(2)
+int quantity = 12;
+quantity *= 2;
+quantity -= 5;
+(3)
+int x, y;
+x = 8;
+y = x * 2 + 1;
+(4)
+int score;
+score = 50;
+score += 10;
+score -= 3;
+(5)
+int index = 0;
+index + 2;
+int total = index * 5;
+index + 11;
+
+le 2 task 5
+Decide whether the following expressions are correct or incorrect. Assume that all variables
+have been defined properly. Ignore missing semicolons.
+(1) 23 * (4 + 2) - 11
+(2) 25 - (7 - 3) * 2
+(3) 2x - (y - 3)
+(4) total / 2 * (5 - 1)
+(5) (18 - 5) * 2 / (3 + 1)
+(6) average */ 4
+(7) 3.14 * (x + 2)
+(8) (12 - 4) / 2 + 3
+(9) 3(a + b) - 2
+(10) ((x - y) / (z + 1)) * (a - b)
+
+le 2 task 6
+Which of the following expressions are correct and which are incorrect? What is the value and
+type of the correct expressions? Ignore missing semicolons.
+(1) 13 / 5
+(2) 2/3 + 1/6
+(3) 2.8 + 11 / 4
+(4) (17 + 0.5) / 9
+(5) (3/4 + 2.25) / 3.0
+(6) 427 % 50
+(7) -13 % 7
+(8) 31 / 9 % 5 + 2
+(9) 31 % 5 % 3 % 5 % 3 % 2 + 1
+(10) 36 / (8 - (-2)) / 3
+
+le 2 task 7
+What values are assigned to the result variable?
+int x = 10;
+int y = 5;
+(1) boolean result = x < y;
+(2) result = x > y;
+(3) result = x <= y;
+(4) result = x >= y;
+(5) result = x!= y;
+(6) result = x == y;
+(7) result = (x + 2) < (y * 2);
+(8) result = (x - 3) > (y + 1);
+(9) result = (x * 2) <= (y * 3);
+(10) result = (x / 2) >= (y / 2);
+(11) result = (x % 2)!= (y % 2);
+(12) result = (x + y) == (y + x);
+
+le 2 task 8
+Produce the appropriate Boolean expressions for the following scenarios. You need to define a Boolean variable that represents the facts/situation appropriately.
+(1) If there are fewer than three bottles of wine left in the cellar, a new wine order should be placed, but only if it's not a weekday.
+(2) It's suitable to go to the beach when the weather is sunny, the temperature is above 20°C, and it's not a windy day, unless it's a weekend, in which case the wind doesn't matter.
+(3) A book purchase is possible if there is enough money in the wallet/purse, or if the credit card is available and the credit limit is not exceeded, but only if the book is on sale or a discount coupon is available.
+
+le 3
+Task 1: Simple if statement
+Define a suitable variable in which the fill volume of a tank in gallons can be stored temporarily. Then initialise the variable with the value 159.92. Now formulate a code snippet which ensures that the text "The tank is full!" is output at a fill volume of 250 gallons.
+
+Task 2: Two-way if statement
+Expand the source code of Task 1 so that the text "The tank is not full any more!" is output if the fill volume is less than 250 gallons. You need to initialize fill volume differently to Task 1.
+
+Task 3: if statement
+Expand or rewrite the source code of Task 2 so that in addition to the text from Task 1 and 2, the text "The tank is half full!" is output if the fill volume is between 120-130 gallons.
+
+Task 4: Converting school grades -> numbers
+Write a programme that expects a character as the programme parameter and then converts the character into a number school grade. For 'A' the programme outputs 1, for 'B' 2, and so on. For all characters other than A-F, the output should be "Invalid value". Use the switch-case to solve this task.
+
+Task 5: while loop with a conditional break
+a) Formulate a code snippet that outputs all numbers from 1 up to and including 50, but stops outputting numbers if a multiple of 7 is encountered.
+b) Formulate a code snippet that outputs only the numbers that are divisible by 3, but only up to a maximum of 10 numbers.
+
+le 4 task 2
+a) Define a method printMessage that types System.out.println for you. printMessage expects a String as input and has no return value.
+
+b) Define a method calculateGrowth, which returns the final population size after a certain number of years, assuming a constant growth rate. The formula is: finalPopulation = initialPopulation * (1 + growthRate)^years. This is not valid Java syntax. Return the final population size.
+
+c) Populate the main method: declare suitable arguments for the initial population, the growth rate, and the number of years. Call the function calculateGrowth with the input parameters, and output the result on the screen (using printMessage).
+
+d) Define a method calculateGrowthWithEnvironmentalFactor, which calculates the final population size taking into account an annually changing environmental factor that affects the growth rate. The calculation could look something like this: finalPopulation = initialPopulation * (1 + (growthRate + environmentalFactor)^years). This is not valid Java syntax. Return the final population size.
+
+e) In main, call the function calculateGrowthWithEnvironmentalFactor using a positive and negative environmental factor and output the result on the screen (using printMessage).
+
+le 4 task 3
+Consider the following program. Which values are output at (1), (2), and (3)?
+public class Calculations {
+    public static void method1(int x, int y) {
+        System.out.println(y % x);
+    }
+    public static void method2(int z, int w) {
+        int x = 7;
+        System.out.println(z * x);
+    }
+    public static void main(String[] args) {
+        int x = 17, y = 5, z = 3;
+        method1(x, y); // (1)
+        method1(y, x); // (2)
+        method2(z, x); // (3)
+    }
+}
+
+le 5 task 1
+a) Declare variables to store:
+i. 5 strings (e.g., names of colors)
+ii. 11 boolean values (e.g., true/false for a series of questions)
+iii. 7 float objects (e.g., temperatures)
+b) Declare a variable daysOfWeek to store the 7 day names (Monday, Tuesday, etc.). Initialize it with the day names.
+c) Assign the following values to the variables declared in task (a):
+i. Strings "red", "green", "blue", "yellow", "purple"
+ii. Boolean values true, false, true, false, true, false, true, false, true, false, true
+iii. Float values 23.5, 17.8, 32.1, 10.9, 25.6, 18.3, 22.9
+d) Determine the length of the array created in task (b) and output the length to the console.
+e) Run through the three arrays from task (a) and task (c) sequentially, and output each element to the console.
+
+le 5 task 2
+Declare a variable studentScores to store 10 integer scores. Initialize it with the values 85, 90, 78, 92, 88, 76, 95, 89, 84, 91. Then output the array elements one at a time to the console. Afterwards, sort the array (Arrays.sort()) and check the result by outputting it again.
+
+le 5 task 3
+Write the following for loop in a reduced form:
+int[] numbers = {2, 4, 6, 8, 10};
+int product = 1;
+for (int i = 0; i < numbers.length; i++) {
+    product *= numbers[i];
+}
+System.out.println(product);
+Use a forEach loop to calculate the product of all elements in the numbers array.
+
+le 7 task 1: Declaration of the Book class
+A library has a collection of books.
+a) Declare a Book class which represents books in the library.
+b) You should focus on the attributes of the books. In principle, books are characterised by a title, an author, a publication year, and a genre. Declare all instance variables of the Book class.
+
+le 7 task 2: Using the Book class
+a) Write an application class in which a book is created. Name the corresponding application class Library, and within it declare a reference variable book1 that references the book object.
+b) Assign the following values to the instance variables of the object created in task (a): title ("To Kill a Mockingbird"), author ("Harper Lee"), publication year (1960), and genre ("Fiction").
+
+le 7 task 3: Constructors for the Book class
+a) Write a default constructor for the Book class which assigns the following standard (default) values to each newly-created object: title ("Unknown"), author ("Unknown"), publication year (0), and genre ("Unknown").
+b) Declare a constructor with multiple parameters for the Book class. When calling up the constructor, four values should be passed, namely a specific title, an author, a publication year, and a specific genre.
+
+le 7 task 4: Method for the Book class
+Write a lendBook method for the Book class, which marks a book as lent by changing its status. This means that a boolean value should be set to true. No parameters are passed to the method, and it does not return any result.
+
+le 7 task 5: Setter and getter for the Book class
+Write the appropriate setter methods and getter methods for the two instance variables Author and Genre of the Book class.
+
+le 7 task 6: Constructor Chaining for the Book class
+Modify the Book class to use constructor chaining. The default constructor should call the parameterized constructor with the default values. This means that you will only need to write the code for the parameterized constructor once. Use only 2 constructors in total.
