@@ -1,6 +1,6 @@
 public class EarningsCalculator2 {
 
-    public static double earnings(int hours, int wage, int factor) {
+    public static double earnings(double hours, double wage, double factor) {
         // return hours <= 8.0
         //     ? hours * wage
         //     : (8.0 + factor * (hours - 8.0)) * wage;
