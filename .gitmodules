@@ -1,0 +1,3 @@
+[submodule "SL/SL_exercises"]
+	path = SL/SL_exercises
+	url = https://inf-git.th-rosenheim.de/Lectures/SL_exercises.git
